@@ -10,19 +10,13 @@ The primary objective of this project was to create an API that automates the pr
 
 ### Challenges with Current Process
 1. Inconsistent Excel quote templates due to:
-   i. Changes in formulas by salespersons.
-   ii. Use of obsolete templates.
+   - Changes in formulas by salespersons.
+   - Use of obsolete templates.
 2. Time-consuming & error-prone manual data entry.
 
 ### Modified Process
-1. Underwriter (UW) provides the salesperson with a quotation Excel template.
-2. The salesperson fills in customer and risk details in the Excel sheet.
-3. The filled Excel sheet is sent back to the UW for quote calculation and approval.
-4. The UW calculates the quote and sends it back to the salesperson.
-5. The salesperson informs the customer of the calculated quote and collects a cheque.
-6. The salesperson submits the cheque along with the quote sheet to the operations team.
-7. The application calls the API, which validates the quotation template, extracts the data, and populates the database.
-8. The operations team issues the policy.
+![Modified Process](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/Modified_Process.png)
+
 
 Advantages of Modified Process
 4 Factor Validation:
