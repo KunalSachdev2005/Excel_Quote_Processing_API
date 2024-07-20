@@ -57,7 +57,7 @@ For each product, the API processes sections such as
 ![API Code Flow](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/api_code_flow.png)
 
 ### Demo
-The repository includes a demo showcasing the front-end for file upload and the resulting output message.
+![API Code Flow](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/demo.png)
 
 ### Software Specifications
 - Python: 3.8.8
