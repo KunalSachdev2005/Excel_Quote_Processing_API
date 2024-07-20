@@ -18,16 +18,20 @@ The primary objective of this project was to create an API that automates the pr
 ![Modified Process](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/Modified_Process.png)
 
 
-Advantages of Modified Process
-4 Factor Validation:
-File format check (.xlsx).
-Unique hidden encrypted value check in a random cell.
-Template format check using 5 constant labels.
-Sheet properties check (creator and title).
-Automated Data Entry:
-Saves time (from 2 hours to 2 minutes per proposal).
-Eliminates data entry errors.
-Managing Redundancy in Lead ID
+### Advantages of Modified Process
+
+1. **4 Factor Validation**:
+   - File format check (.xlsx).
+   - Unique hidden encrypted value check in a random cell.
+   - Template format check using 5 constant labels.
+   - Sheet properties check (creator and title).
+
+2. **Automated Data Entry**:
+   - Saves time (from 2 hours to 2 minutes per proposal).
+   - Eliminates data entry errors.
+
+3. **Managing Redundancy in Lead ID**
+
 To handle redundancy in lead IDs:
 
 An "isactive" column is introduced in each database table.
