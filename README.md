@@ -63,11 +63,11 @@ For each product, the API processes sections such as
 - Python: 3.8.8
 - Database: Oracle 19c
 - Libraries:
-- Flask: 2.1.2
-- Pandas: 1.4.2
-- NumPy: 1.22.4
-- os: 0.6.3
-- sqlalchemy: 1.3.24
-- openpyxl: 3.0.9
-- Werkzeug: 2.1.2
-- cx_Oracle: 8.3.0
+  - Flask: 2.1.2
+  - Pandas: 1.4.2
+  - NumPy: 1.22.4
+  - os: 0.6.3
+  - sqlalchemy: 1.3.24
+  - openpyxl: 3.0.9
+  - Werkzeug: 2.1.2
+  - cx_Oracle: 8.3.0
