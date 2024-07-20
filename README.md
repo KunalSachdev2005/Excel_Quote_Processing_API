@@ -54,10 +54,9 @@ For each product, the API processes sections such as
  - Supplementary Clauses & Conditions.
 
 ### API Code Flow
-File Upload: The user uploads the quote file.
-Quote Format Validation: The API validates the file format and constant sheet values.
-Quote Extraction: The API extracts data and uploads it to the database.
-Demo
+![API Code Flow](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/api_code_flow.png)
+
+### Demo
 The repository includes a demo showcasing the front-end for file upload and the resulting output message.
 
 ### Software Specifications
