@@ -53,22 +53,22 @@ For each product, the API processes sections such as
  - Exclusions & Subjectivities
  - Supplementary Clauses & Conditions.
 
-API Code Flow
+### API Code Flow
 File Upload: The user uploads the quote file.
 Quote Format Validation: The API validates the file format and constant sheet values.
 Quote Extraction: The API extracts data and uploads it to the database.
 Demo
 The repository includes a demo showcasing the front-end for file upload and the resulting output message.
 
-Software Specifications
-Python: 3.8.8
-Database: Oracle 19c
-Libraries:
-Flask: 2.1.2
-Pandas: 1.4.2
-NumPy: 1.22.4
-os: 0.6.3
-sqlalchemy: 1.3.24
-openpyxl: 3.0.9
-Werkzeug: 2.1.2
-cx_Oracle: 8.3.0
+### Software Specifications
+- Python: 3.8.8
+- Database: Oracle 19c
+- Libraries:
+- Flask: 2.1.2
+- Pandas: 1.4.2
+- NumPy: 1.22.4
+- os: 0.6.3
+- sqlalchemy: 1.3.24
+- openpyxl: 3.0.9
+- Werkzeug: 2.1.2
+- cx_Oracle: 8.3.0
