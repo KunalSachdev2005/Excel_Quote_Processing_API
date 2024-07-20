@@ -6,6 +6,7 @@ This repository contains the code and documentation for the Quote Extraction Aut
 The primary objective of this project was to create an API that automates the process of validating, extracting, and storing data from insurance quote Excel files into a database, thereby eliminating manual data entry and speeding up the policy issuance process.
 
 ### Current Process
+![Current Process](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/Current_Process.png)
 1. Underwriter (UW) provides the salesperson with a quotation Excel template.
 2. The salesperson fills in customer and risk details in the Excel sheet.
 3. The filled Excel sheet is sent back to the UW for quote calculation and approval.
