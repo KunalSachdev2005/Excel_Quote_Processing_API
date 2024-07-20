@@ -13,6 +13,7 @@ The primary objective of this project was to create an API that automates the pr
    - Changes in formulas by salespersons.
    - Use of obsolete templates.
 2. Time-consuming & error-prone manual data entry.
+3. Each customer reaching out to the insurance company is assigned a unique lead id. A customer might upload the same excel file twice or thrice to the API leading to redundancy in lead id.
 
 ### Modified Process
 ![Modified Process](https://github.com/KunalSachdev2005/Quote_Extraction_Automation_API/blob/main/media/Modified_Process.png)
@@ -31,18 +32,26 @@ The primary objective of this project was to create an API that automates the pr
    - Eliminates data entry errors.
 
 3. **Managing Redundancy in Lead ID**
+   - An "isactive" column is introduced in each database table.
+   - Upon data upload, the API checks for existing lead IDs and updates the "isactive" status accordingly, ensuring the most recent activity is marked as active.
 
-To handle redundancy in lead IDs:
-
-An "isactive" column is introduced in each database table.
-Upon data upload, the API checks for existing lead IDs and updates the "isactive" status accordingly, ensuring the most recent activity is marked as active.
-Products
+### Products
 The API handles the following insurance products:
 
-Standard Fire & Special Perils Policy (SFSP)
-Burglary Insurance
-Plate Glass Insurance
-For each product, the API processes sections such as Customer Details, Main Policies, Add-On Covers, Terms & Conditions, Deductibles, Warranties, Clauses & Conditions, Exclusions & Subjectivities, and Supplementary Clauses & Conditions.
+1. Standard Fire & Special Perils Policy (SFSP)
+2. Burglary Insurance
+3. Plate Glass Insurance
+
+For each product, the API processes sections such as
+ - Customer Details
+ - Main Policies
+ - Add-On Covers
+ - Terms & Conditions
+ - Deductibles
+ - Warranties
+ - Clauses & Conditions
+ - Exclusions & Subjectivities
+ - Supplementary Clauses & Conditions.
 
 API Code Flow
 File Upload: The user uploads the quote file.
