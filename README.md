@@ -1,6 +1,6 @@
 # Quote Extraction Automation API
 
-This repository contains the code and documentation for the Quote Extraction Automation API developed during my internship at HDFC ERGO from April 2022 to June 2022. The project aimed to automate the validation, extraction, and storage of data from insurance quote Excel templates, improving the efficiency and accuracy of the policy issuance process.
+This repository contains the code and documentation for the Quote Extraction Automation API developed during my Software Development internship at HDFC ERGO from April 2022 to June 2022. The project aimed to automate the validation, extraction, and storage of data from insurance quote Excel templates, improving the efficiency and accuracy of the policy issuance process.
 
 ---
 
